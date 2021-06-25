@@ -83,6 +83,36 @@ export function pSearch(name) {
       title: "Rizal Ramli - Web",
       link: "https://www.cnnindonesia.com/tag/rizal-ramli",
     },
+    {
+      id: 1,
+      title: "Rizal Ramli - Wikipedia",
+      link: "https://id.wikipedia.org/wiki/Rizal_Ramli",
+    },
+    {
+      id: 2,
+      title: "Rizal Ramli - Detik",
+      link: "https://www.detik.com/tag/rizal-ramli",
+    },
+    {
+      id: 3,
+      title: "Rizal Ramli - Web",
+      link: "https://www.cnnindonesia.com/tag/rizal-ramli",
+    },
+    {
+      id: 1,
+      title: "Rizal Ramli - Wikipedia",
+      link: "https://id.wikipedia.org/wiki/Rizal_Ramli",
+    },
+    {
+      id: 2,
+      title: "Rizal Ramli - Detik",
+      link: "https://www.detik.com/tag/rizal-ramli",
+    },
+    {
+      id: 3,
+      title: "Rizal Ramli - Web",
+      link: "https://www.cnnindonesia.com/tag/rizal-ramli",
+    },
   ];
 
   if (name === "Jokowi") {

@@ -7,16 +7,17 @@ import "./home.css";
 const Home = () => {
   const links = useSelector((state) => state.links);
 
-  console.log(links, "<<<<<<<<<<><><<>");
   return (
     <div className="container-fluid home">
       <div className="row page pt-2">
-        <div className="col-md-2 ">
+        <div className="col-md-2 person__div">
           <div className="person card p-2">
             <div>
               <h5>Person Lists</h5>
             </div>
-            <PersonLists></PersonLists>
+            <div className="xxx">
+              <PersonLists></PersonLists>
+            </div>
           </div>
         </div>
         <div className="col-md-10">
