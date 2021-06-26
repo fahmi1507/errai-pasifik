@@ -1,28 +1,20 @@
-import React from "react";
-import { useDispatch } from "react-redux";
-
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { setSearch } from "../redux/actions/action";
 import Links from "./Links";
 import "./table.css";
 const Table = () => {
   const search = useSelector((state) => state.search);
-  const dispatch = useDispatch();
+  const [ascending, setAscending] = useState(true);
 
   const handleClick = () => {
-    const x = search.sort(function (a, b) {
-      if (a.link < b.link) {
-        return -1;
-      }
-      if (a.link > b.link) {
-        return 1;
-      }
-      return 0;
-    });
-
-    dispatch(setSearch([{ id: "", title: "", link: "" }]));
-    dispatch(setSearch(x));
+    setAscending(!ascending);
   };
+
+  const sorted = search.sort((a, b) => {
+    const isReversed = ascending ? 1 : -1;
+
+    return isReversed * (a.id - b.id);
+  });
 
   return (
     <div className="table__div">
@@ -38,7 +30,7 @@ const Table = () => {
             </tr>
           </thead>
           <tbody>
-            {search.map((e, i) => (
+            {sorted.map((e, i) => (
               <Links key={i} data={e} />
             ))}
           </tbody>

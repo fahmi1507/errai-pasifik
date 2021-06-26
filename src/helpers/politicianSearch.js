@@ -84,32 +84,32 @@ export function pSearch(name) {
       link: "https://www.cnnindonesia.com/tag/rizal-ramli",
     },
     {
-      id: 1,
+      id: 4,
       title: "Rizal Ramli - Wikipedia",
       link: "https://id.wikipedia.org/wiki/Rizal_Ramli",
     },
     {
-      id: 2,
+      id: 5,
       title: "Rizal Ramli - Detik",
       link: "https://www.detik.com/tag/rizal-ramli",
     },
     {
-      id: 3,
+      id: 6,
       title: "Rizal Ramli - Web",
       link: "https://www.cnnindonesia.com/tag/rizal-ramli",
     },
     {
-      id: 1,
+      id: 7,
       title: "Rizal Ramli - Wikipedia",
       link: "https://id.wikipedia.org/wiki/Rizal_Ramli",
     },
     {
-      id: 2,
+      id: 8,
       title: "Rizal Ramli - Detik",
       link: "https://www.detik.com/tag/rizal-ramli",
     },
     {
-      id: 3,
+      id: 9,
       title: "Rizal Ramli - Web",
       link: "https://www.cnnindonesia.com/tag/rizal-ramli",
     },
