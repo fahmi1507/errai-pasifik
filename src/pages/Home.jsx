@@ -8,36 +8,65 @@ const Home = () => {
   const links = useSelector((state) => state.links);
 
   return (
-    <div className="container-fluid home">
-      <div className="row page pt-2">
-        <div className="col-md-2 person__div">
-          <div className="person card p-2">
+    // <div className="container-fluid home">
+    //   <div className="row page pt-2">
+    //     <div className="col-md-2 person__div">
+    //       <div className="person glass p-2">
+    //         <div>
+    //           <h5>Person Lists</h5>
+    //         </div>
+    //         <div>
+    //           <PersonLists></PersonLists>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div className="col-md-10">
+    //       <div className="row d-flex flex-column row__search">
+    //         <div className="col ps-0 mb-1">
+    //           <div className="p-2 glass search_result">
+    //             <div>
+    //               <h5>Search Results</h5>
+    //             </div>
+    //             <Table />
+    //           </div>
+    //         </div>
+    //         <div className="col ps-0 mt-1">
+    //           <div className="p-2  glass content">
+    //             <div>
+    //               <h5>Content</h5>
+    //             </div>
+    //             <iframe width="100%" height="300" title="content" src={links}></iframe>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+
+    <div className="container home ">
+      <div className="person glass p-2">
+        <div>
+          <h5>Person Lists</h5>
+        </div>
+        <div>
+          <PersonLists></PersonLists>
+        </div>
+      </div>
+      <div className="d-flex flex-column align-items-end xx">
+        <div className="my-1 items">
+          <div className="p-2 glass search_result">
             <div>
-              <h5>Person Lists</h5>
+              <h5>Search Results</h5>
             </div>
-            <div className="xxx">
-              <PersonLists></PersonLists>
-            </div>
+            <Table />
           </div>
         </div>
-        <div className="col-md-10">
-          <div className="row d-flex flex-column row__search">
-            <div className="col ps-0 mb-1">
-              <div className="p-2 card search_result">
-                <div>
-                  <h5>Search Results</h5>
-                </div>
-                <Table />
-              </div>
+        <div className="mt-1 items">
+          <div className="p-2  glass content">
+            <div>
+              <h5>Content</h5>
             </div>
-            <div className="col ps-0 mt-1">
-              <div className="p-2  card content">
-                <div>
-                  <h5>Content</h5>
-                </div>
-                <iframe width="100%" height="300" title="content" src={links}></iframe>
-              </div>
-            </div>
+            <iframe width="100%" height="300" title="content" src={links}></iframe>
           </div>
         </div>
       </div>

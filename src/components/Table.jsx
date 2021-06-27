@@ -19,7 +19,7 @@ const Table = () => {
   return (
     <div className="table__div">
       {search[0].id > 0 && (
-        <table className="table table-bordered mb-0">
+        <table className="table table-bordered border-info mb-0">
           <thead>
             <tr>
               <th scope="col">No</th>
