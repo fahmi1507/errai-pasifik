@@ -1,31 +1,37 @@
 .home {
-  min-height: 150vh;
+  min-height: 100vh;
 }
 .items {
   width: 800px;
 }
 .page {
   min-height: 100vh;
-  position: relative;
 }
 
 .row__search {
   min-height: 100vh;
 }
 
-.xx {
+.home h5 {
+  font-weight: 700;
+}
+
+.search__content {
   position: absolute;
   top: 0;
   left: 430px;
 }
 
-.person {
-  height: 130px;
-  position: sticky;
-  top: 5px;
-  left: 120px;
-  width: 300px;
+.person__List {
   overflow-y: auto;
+  height: 80px;
+}
+
+.person {
+  position: sticky;
+  top: 8px;
+  left: 100px;
+  width: 300px;
 }
 
 .person__div {
@@ -54,7 +60,7 @@
     align-items: center;
   }
 
-  .xx {
+  .search__content {
     position: static;
   }
 

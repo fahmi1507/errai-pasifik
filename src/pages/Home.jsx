@@ -48,12 +48,12 @@ const Home = () => {
         <div>
           <h5>Person Lists</h5>
         </div>
-        <div>
+        <div className="person__List">
           <PersonLists></PersonLists>
         </div>
       </div>
-      <div className="d-flex flex-column align-items-end xx">
-        <div className="my-1 items">
+      <div className="d-flex flex-column align-items-end search__content">
+        <div className="my-2 items">
           <div className="p-2 glass search_result">
             <div>
               <h5>Search Results</h5>
@@ -66,7 +66,7 @@ const Home = () => {
             <div>
               <h5>Content</h5>
             </div>
-            <iframe width="100%" height="300" title="content" src={links}></iframe>
+            <iframe width="100%" height="400" title="content" src={links}></iframe>
           </div>
         </div>
       </div>
